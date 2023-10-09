@@ -1,0 +1,41 @@
+body{
+    background-color: #D67BFF;
+}
+.cell{
+    width: 105px;
+    height: 105px;
+    border: 5px solid;
+    border-color: #45FFCA;
+    box-shadow: 0 0 0 0.8px;
+    line-height: 90px;
+    font-size: 60px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    justify-content: center;
+    top: 16%;
+    left: 38%;
+    position: absolute;
+    
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+
+}
+button{
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10%;
+}
+h1, h2, button{
+    margin-left: 75px;
+    
+}
